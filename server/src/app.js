@@ -1,5 +1,5 @@
-import { ApolloServer } from "@apollo/server"
-import { startStandaloneServer } from "@apollo/server/standalone"
+import { ApolloServer } from "@apollo/server" //Create server
+import { startStandaloneServer } from "@apollo/server/standalone" //Statr the server
  
 const server = new ApolloServer({
   typeDefs,
